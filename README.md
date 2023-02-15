@@ -80,3 +80,7 @@ You can reset the counting limits with
 encoder.resetUpperLimit();
 encoder.resetLowerLimit();
 ```
+or both a the same time with
+```C++
+encoder.resetLimits();
+```
